@@ -1,7 +1,7 @@
 config:
   some:
-    parameter: This is TEST value!
+    parameter: This is a value!
   list:
-    - TEST1
-    - TEST2
-    - TEST3
+    - TRET
+    - REWQ
+    - GFDS
