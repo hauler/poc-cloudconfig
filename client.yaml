@@ -1,6 +1,6 @@
 some:
-  parameter: This is value!
+  parameter: This is TEST value!
 list:
-  - QWER
-  - TREW
-  - GFDS
+  - TEST1
+  - TEST2
+
