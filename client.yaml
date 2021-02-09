@@ -1,6 +1,7 @@
-some:
-  parameter: This is TEST value!
-list:
-  - TEST1
-  - TEST2
-  - TEST3
+config:
+  some:
+    parameter: This is TEST value!
+  list:
+    - TEST1
+    - TEST2
+    - TEST3
