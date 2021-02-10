@@ -1,0 +1,6 @@
+config:
+  some:
+    parameter: This is DEV a value!
+  list:
+    - DEV1
+    - DEV2
