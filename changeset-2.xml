@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+				   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet id="007-markup-test-data" author="tzie0062">
+		<sql>
+			insert into ACQUIRER_MARKUP (markup_id, markup_value, valid_from, inserted_at)
+			values ('test', 0.0125, STR_TO_DATE('2000-01-01 08:20:10','%Y-%m-%d %H:%i:%s'), now());
+		</sql>
+	</changeSet>
+</databaseChangeLog>
